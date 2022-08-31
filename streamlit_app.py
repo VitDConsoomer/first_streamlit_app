@@ -8,5 +8,5 @@ streamlit.text('Part two: Siphoning gas')
 streamlit.text('Part three: Magnetic gas siphons and the impact of the 1972 oil crisis')
 
 streamlit.header('And now, a list of fruits:')
-fruits = pandas.read_csv("fruit_macros.txt")
+fruits = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
 streamlit.dataframe(fruits)
