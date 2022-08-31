@@ -11,7 +11,7 @@ streamlit.text('Part three: Magnetic gas siphons and the impact of the 1972 oil 
 streamlit.header('And now, a list of fruits:')
 
 # Let's put a pick list here so they can pick the fruit they want to include 
-streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index),["Avocados","Strawberries"])
+streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index),["Avocado","Strawberries"])
 
 my_fruit_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
 streamlit.dataframe(my_fruit_list)
